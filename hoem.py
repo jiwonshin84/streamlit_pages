@@ -7,11 +7,3 @@ st.write("여기는 홈입니다. 좌측 사이드바에서 다른 페이지를 
 
 st.sidebar.markdown("🏥 page2")
 st.sidebar.markdown("💸 page3")
-
-
-
-# Set up navigation
-pg = st.navigation([home, page2, page3])
-
-# Run the selected page
-pg.run()
